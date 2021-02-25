@@ -1,0 +1,84 @@
+        html, body{
+            height: 100%;
+            width: 100%;
+            background-color: hsl(246,75%,70%); 
+        }
+
+     
+        #survey-form{
+            width:500px;
+            height:400px;
+            background-color:rgb(33, 33, 37);
+            margin: auto;
+            margin-top: 10%;
+            padding: 5px;
+            border-radius:5px;
+            font-family: 'Poppins',sans-serif;
+           
+            font-size:0.8em;
+            line-height:2.2em;
+            box-sizing:border-box;
+           
+        }
+        #email{
+            background-color:white;
+            width:350px;
+           height: 45px;
+           border-radius:3.5px;
+           border-color: blue;
+            margin-left: 55px;
+        }
+        #password{
+            background-color:white;
+            width:350px;
+           height: 45px;
+           border-radius:3.5px;
+           border-color: blue;
+            margin-left: 55px;
+        }
+        
+        #login{
+           background-color: rgb(17, 211, 17);
+           width:350px;
+           height:50px;
+           border-radius:20px;
+           border: 0;
+           color:white;
+           font-size:25px;
+           display: inline-block;
+           font-family: Poppins;
+           margin-left: 12.5%;
+           margin-top:25px;
+          
+        }
+        .text{
+            font-family:'Poppins',sans-serif;
+            color: white;
+            text-align: justify;
+          
+            margin-left:25px;
+           font-weight:bolder;
+           font-size:1.6em;
+           line-height: 1.4em;
+           
+           
+        }
+        .centre{
+            text-align: center;
+        }
+        a{
+         margin:auto;
+         position:relative;
+        top:15px;
+          text-decoration:none;
+          font-size:medium;
+        }
+        a:link,a:visited{
+        color:hotpink;
+        }
+        a:hover{
+            color:red;
+        }
+        a:hover{
+            text-decoration:underline;
+        }

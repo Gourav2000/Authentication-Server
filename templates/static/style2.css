@@ -1,0 +1,86 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(246,75%,70%); 
+}
+     
+        #survey-form{
+            width:480px;
+            height:560px;
+            background-color:rgb(33, 33, 37);
+            margin: auto;
+            margin-top: 5%;
+            padding: 5px;
+            border-radius:5px;
+            font-family: 'Poppins',sans-serif;
+           
+            font-size:0.8em;
+            line-height:2.2em;
+            box-sizing:border-box;
+           
+        }
+        #name{
+            background-color:white;
+            width:350px;
+            height: 45px;
+            border-radius:3.5px;
+            border-color: blue;
+            margin-left: 55px;
+            line-height:1.4em;    
+            
+         }
+        #email{
+            background-color:white;
+            width:350px;
+           height: 45px;
+           border-radius:3.5px;
+           border-color: blue;
+            margin-left: 55px;
+        }
+        #password{
+            background-color:white;
+            width:350px;
+           height: 45px;
+           border-radius:3.5px;
+           border-color: blue;
+            margin-left: 55px;
+        }
+        
+        #register{
+            background-color: rgb(17, 211, 17);
+            width:350px;
+            height:50px;
+            border-radius:20px;
+            border: 0;
+            color:white;
+            font-size:25px;
+            display: inline-block;
+            font-family: Poppins;
+            margin-left: 12.5%;
+            margin-top:25px;
+          
+        }
+        .text{
+            font-family:'Poppins',sans-serif;
+            color: white;
+            text-align: justify;
+          
+            margin-left:25px;
+           font-weight:bolder;
+           font-size:1.6em;
+           line-height: 1.4em;
+           
+           
+        }
+        
+        .image{
+           width:100%;
+           height:2000px;
+            z-index:3;
+            opacity:0.3;
+            background-color:rgb(173, 173, 170);
+        }
+       
+        #reg_button{
+            margin-top: 10px;
+        }
