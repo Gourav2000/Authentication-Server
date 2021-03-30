@@ -13,19 +13,29 @@ and open the template in the editor.
 
 <body>
   <div>
-    <form id="survey-form">
+    <form class="form" action="{{url_for('profile_signup')}}" id="signup_form" method="POST">
       <h2 class="text">Name</h2>
-      <input id="name" type="text" placeholder="Enter your name" required>
+      <input id="name" type="text" placeholder="Enter your name" required name="name">
       <h2 class="text">Email</h2>
-      <input id="email" type="email" placeholder="Enter your Email" required>
+      <input id="email" type="email" placeholder="Enter your Email" required name="email">
       <h2 class="text">Password</h2>
-      <input id="email" type="password" placeholder="Enter your Password" required>
+      <input id="pwd" type="password" placeholder="Enter your Password" required name="password">
       <h2 class="text">Confirm Password</h2>
-      <input id="email" type="password" placeholder="Please confirm your Password" required>
-      <div id="reg_button"><button id="register" type="submit">Register</button></div>
+      <input id="pwdc" type="password" placeholder="Please confirm your Password" required name="confirm_password">
+      <div id="reg_button"><button id="register" type="button">Register</button></div>
     </form>
   </div>
 
 </body>
-
+<script>
+  document.getElementById("register").addEventListener("click", function () {
+      
+      if (document.getElementById('pwd').value.length > 5 && document.getElementById('pwd').value == document.getElementById('pwdc').value) {
+         document.createElement('form').submit.call(document.getElementById("signup_form"));
+      }
+      else{
+          alert('Password do not match or password too small')
+      }
+  });
+</script>
 </html>

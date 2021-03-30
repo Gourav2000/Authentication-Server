@@ -4,7 +4,7 @@ html, body{
     background-color: hsl(246,75%,70%); 
 }
      
-        #survey-form{
+        #signup_form{
             width:480px;
             height:560px;
             background-color:rgb(33, 33, 37);
@@ -37,7 +37,16 @@ html, body{
            border-color: blue;
             margin-left: 55px;
         }
-        #password{
+        #pwd{
+            background-color:white;
+            width:350px;
+           height: 45px;
+           border-radius:3.5px;
+           border-color: blue;
+            margin-left: 55px;
+        }
+        
+        #pwdc{
             background-color:white;
             width:350px;
            height: 45px;
