@@ -18,13 +18,13 @@ This repository contains a simple authentication server built using Flask. It pr
 - `userdb.db`: SQLite database for user data.
 
 ## Endpoints
-- **Main**: `/`
-- **Login**: `/login`
-- **Signup**: `/signup`
-- **Profile Signup**: `/profile_signup`
-- **Profile Login**: `/profile_login`
-- **Profile**: `/profile`
-- **Logout**: `/logout`
+- `/`: Main endpoint that redirects to the profile or login page based on the session.
+- `/login`: Endpoint for user login.
+- `/signup`: Endpoint for user registration.
+- `/profile_signup`: Endpoint to handle the signup process.
+- `/profile_login`: Endpoint to handle the login process.
+- `/profile`: Endpoint to display the user's profile.
+- `/logout`: Endpoint to log the user out.
 
 ## How to Run
 1. Clone the repository.
